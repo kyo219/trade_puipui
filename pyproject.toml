@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "trade-puipui"
+version = "0.1.0"
+description = ""
+authors = ["saikyo219 <k.higuchi.219@gmail.com>"]
+readme = "README.md"
+packages = [{include = "trade_puipui"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+ccxt = "^4.1.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
